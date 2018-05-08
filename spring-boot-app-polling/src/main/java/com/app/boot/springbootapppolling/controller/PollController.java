@@ -65,7 +65,7 @@ public class PollController {
         Poll poll = new Poll();
         poll.setQuestion(pollRequest.getQuestion());
 
-        pollRequest.getChoiceRequests().forEach(choiceRequest -> {
+        pollRequest.getChoices().forEach(choiceRequest -> {
             poll.addChoice(new Choice(choiceRequest.getText()));
         });
 

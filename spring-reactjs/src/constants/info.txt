@@ -1,0 +1,3 @@
+berisi konfigurasi api url
+api auth token
+segala macam api
